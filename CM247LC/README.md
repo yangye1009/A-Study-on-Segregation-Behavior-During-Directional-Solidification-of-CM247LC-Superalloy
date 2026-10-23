@@ -30,18 +30,6 @@ or `xlrd` (.xls) for reading Excel files.
 | `04_gradient_descent_kE_inversion.py` | Scheil log-linear fit by gradient descent for the effective partition coefficient k_E, checked against the OLS solution | CSV of element wt% (preset fs ranges for 10, 17 and 34 points) | `results/04_partition_fit/` |
 | `05_phase_diagram_partition_slope.py` | k(T) = Cs/Cl from phase-diagram (Scheil / lever) exports; optional T–C slope fits | 13-column solid and liquid tables; optional slope table | `results/05_phase_diagram/` |
 
-Notes:
-
-- **01**: with the default `--x-mode nominal-fs` the probe index is mapped linearly onto fs = 0–0.9, as in the original
-  script; this is not the true solid fraction. Use `--x-mode position` to plot against axial position. G is taken over
-  two probe intervals (2 × 5 = 10 mm).
-- **02**: the area/spot regular expressions also recognise Chinese header keywords of Chinese-locale EDS exports.
-  These keywords are written as `\u` escapes so that the source file is ASCII; do not remove them. Duplicate
-  (areaID, spotID, element) records raise an error unless `--duplicate mean` or `--duplicate first` is given.
-- **03 / 04**: the element-wise correction factors, the Ni offset (0.092) and the fixed fit coefficients come from the
-  original scripts. The nominal solid-fraction mapping is a model assumption.
-- **05**: Cs/Cl is not automatically the equilibrium k0. Solid and liquid tables must share the same temperatures (tolerance `--temperature-tol`).
-
 ### Part 2 — Chapter 4 recomputation (06–12)
 
 Input data in `data/`:
