@@ -45,7 +45,7 @@ Programs and outputs (`results/` and `figures/`):
 | Program | Content | Tables | Figures |
 |---|---|---|---|
 | `06_thermal_field.py` | Thermal quantities on both axes; steady-stage statistics (Table 4.11); G autocorrelation and spectrum; R–G consistency; coherence of the two axes; arrival-time noise | `B1_thermal_axis1/2`, `T4_11_steady_stats`, `06_*` | F01–F04 |
-| `07_eds_composition.py` | 34-point EDS statistics: CV vs segregation criteria (Table 4.8), Pearson matrix (Table 4.9), pool vs matrix frames (Table 4.10), closure dilution, partial correlation, Deng grey relational grades (audit only), Spearman trends | `B2_eds_34points`, `T4_8`, `T4_9`, `T4_10`, `07_*` | F05–F09 |
+| `07_eds_composition.py` | 34-point EDS statistics: CV vs segregation criteria (Table 4.8), Pearson matrix (Table 4.9), pool vs matrix frames (Table 4.10), closure dilution, partial correlation Spearman trends | `B2_eds_34points`, `T4_8`, `T4_9`, `T4_10`, `07_*` | F05–F09 |
 | `08_registration.py` | Composition–G registration and correlation (Table 4.12, Fig. 4.30); window and position-mapping sensitivity; pool-frame G test; axis-1 control; R correlation; apparent k_E from closure | `B3_paired_series`, `T4_12`, `08_*` | F10–F13 |
 | `09_scheil_fit.py` | Scheil fits with 95 % CI and p-values (Table 4.3); provenance of da4/da7; BPS inversion of Pc (Table 4.7); Rδ consistency | `T4_3`, `T4_7`, `09_*` | F14–F15 |
 | `10_jmatpro.py` | k(T) = Cγ/CL along the JMatPro Scheil path; liquidus k0; Al path | `B4_jmatpro_k_vs_T`, `10_*` | F16–F17 |
