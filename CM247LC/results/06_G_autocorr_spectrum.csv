@@ -1,0 +1,9 @@
+﻿item,value
+acf lag 5 mm,-0.03240135785235968
+acf lag 10 mm,-0.6578727297336782
+acf lag 15 mm,0.058525984278708094
+acf lag 20 mm,0.4821880598994725
+spectral peak wavelength /mm (zero-padded periodogram),20.098135426889105
+mean detrended peak spacing /mm (steady),13.0
+"G peaks, steady window (centres, mm)",95;115;125;140;150;160
+"G peaks, pairing window x_c>=45 mm (centres, mm)",55;75;95;115;125;140;150;160

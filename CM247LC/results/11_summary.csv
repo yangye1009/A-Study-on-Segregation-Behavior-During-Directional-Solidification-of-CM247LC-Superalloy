@@ -1,0 +1,3 @@
+﻿scheme,n_valid,Nv_min,Nv_max,n_Nv_above_2_32,Md_min,Md_max,n_Md_above_0_925,Ni_gamma_mean_at,CrCo_gamma_mean_at,W_gamma_mean_at
+corrected (program 03 factors),34,1.909,2.358,4,0.867,0.928,3,46.993,45.815,6.642
+uncorrected measured wt%,26,,,,,,,,,

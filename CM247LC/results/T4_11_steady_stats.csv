@@ -1,0 +1,6 @@
+﻿quantity,n,mean,sd,cv_pct,min,max,ext_lo_pct,ext_hi_pct
+Cooling rate Tdot /(K s^-1),23,0.2165,0.0222,10.2781,0.1889,0.2946,-12.7245,36.1124
+Interface velocity R /(mm min^-1),22,2.4557,0.2869,11.6827,1.9264,3.0127,-21.5564,22.6813
+Temperature gradient G /(K mm^-1),21,6.2253,0.5378,8.6386,5.2237,7.3584,-16.0891,18.201
+Undercooling dT /K,23,3.6667,0.5124,13.9732,2.6462,4.5239,-27.8318,23.3768
+"Cooling rate, x>70 mm (transient point removed)",22,0.2129,0.0146,6.8766,0.1889,0.2381,-11.268,11.8123

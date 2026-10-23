@@ -1,0 +1,7 @@
+﻿item,value
+"r(R,G), detrended, steady, centres 2.5 mm apart",-0.4392
+regression slope dR/R0 vs -dG/G0,0.6338
+slope corrected for misregistration cos(2*pi*2.5/19.3),0.923
+"r(R_i, G_i+1) (centres 7.5 mm apart, about 0.4 lambda)",0.5551
+sqrt(CV_V^2 + CV_G^2) /% (predicted CV_R),11.0414
+measured CV_R /%,11.6827

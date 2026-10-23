@@ -1,0 +1,11 @@
+﻿item,value
+nominal Al /wt%,5.6
+gamma Al at liquidus /wt%,5.0946
+k_Al at liquidus,0.9098
+liquid Al maximum /wt%,6.3318
+T of liquid Al maximum /C,1290
+first T with gamma-prime /C,1256.02
+liquid Al at gamma-prime onset /wt%,6.2825
+liquid Al at last liquid row /wt%,4.7922
+T of last liquid row /C,1125
+T where k_Al crosses 1 /C,1290

@@ -1,0 +1,10 @@
+﻿item,value
+"arrival-time fit slope /(s mm^-1), x=70-175 mm",24.7043778242236
+implied mean R /(mm min^-1),2.4287193317278235
+arrival-time residual s.d. /s,11.073482668084736
+residual acf lag1/lag2/lag3,0.09;-0.06;0.01
+"acf of 2-step arrival-time difference, lag 5/10/15/20 mm",0.01;-0.67;-0.12;0.39
+theory: white-noise 2-step difference acf at lag 10 mm,-0.5
+"r(G, Tdot*(t_i+2 - t_i)/10 mm)",0.7745573984243271
+R^2 of G explained by arrival-time differences,0.5999391634538619
+"r(detrended G, detrended t_i+2 - t_i)",0.8983326317891125

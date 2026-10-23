@@ -1,0 +1,203 @@
+﻿location,item,thesis_value,recomputed,status,note
+Table 4.11,mean Tdot /K s-1,0.216,0.2165,reproduced,
+Table 4.11,CV Tdot /%,10.3,10.2781,reproduced,
+Table 4.11,mean R /mm min-1,2.46,2.4557,reproduced,
+Table 4.11,CV R /%,11.7,11.6827,reproduced,
+Table 4.11,mean G /K mm-1,6.23,6.2253,reproduced,
+Table 4.11,CV G /%,8.6,8.6386,reproduced,
+Table 4.11,mean dT /K,3.67,3.6667,reproduced,
+Table 4.11,CV dT /%,14.0,13.9732,reproduced,
+§4.4.5,Tdot x>70 mm: CV /%,6.9,6.8766,reproduced,
+§4.4.5,"r(R,G) steady",-0.44,-0.4392,reproduced,
+§4.4.5,"r(R,G) shifted 7.5 mm",0.56,0.5551,reproduced,
+§4.4.5,slope dR/R0 vs -dG/G0,0.59,0.6338,reproduced,0.63 recomputed; 0.59 in thesis
+§4.4.5,predicted CV_R /%,11.0,11.0414,reproduced,
+§4.4.5 / Summary (5),"r(V1,V2) x>=70 mm",0.65,0.6494,reproduced,
+§4.4.5,"r(V1,V2) without x=70 mm transition point",,0.3921,new,p=0.071
+§4.4.5,"r(R1,R2)",0.2,-0.0337,correct,thesis text (derivation doc) says 0.20; recomputed -0.03
+§4.4.5,"r(G1,G2)",0.03,0.0664,reproduced,
+§4.4.3.2,G acf lag 10 mm,-0.73,-0.6578727297336782,reproduced,window/detrending dependent
+§4.4.3.2,G acf lag 20 mm,0.58,0.4821880598994725,reproduced,window dependent
+§4.4.3.2,G spectral peak /mm,19.3,20.098135426889105,reproduced,periodogram resolution
+§4.4.5,G peaks (pairing window),"55,75,95,115,125,140",55;75;95;115;125;140;150;160,correct,"8 peaks incl. 150, 160 mm"
+new,R^2 of G explained by 2-step arrival-time difference,,0.8070015173371532,new,
+new,acf of 2-step arrival-time difference at 10 mm (white-noise theory -0.5),,0.01;-0.67;-0.12;0.39,new,
+Table 4.8,CV Hf /%,60.2,60.241,reproduced,
+Table 4.8,CV Ta /%,33.9,33.95,reproduced,
+Table 4.8,CV Ti /%,23.0,22.96,reproduced,
+Table 4.8,CV Mo /%,21.4,21.372,reproduced,
+Table 4.8,CV Al /%,7.5,7.48,reproduced,
+Table 4.8,CV W /%,7.2,7.165,reproduced,
+Table 4.8,CV Co /%,4.6,4.553,reproduced,
+Table 4.8,CV Cr /%,3.8,3.782,reproduced,
+Table 4.8,"Spearman(CV,|k0-1|)",0.93,0.929,reproduced,
+Table 4.8,"Spearman(CV,Z)",0.26,0.262,reproduced,
+Table 4.8,"Spearman(CV,|m|)",-0.38,-0.381,reproduced,
+Table 4.8,"Spearman(CV,1/DL)",0.24,0.24,reproduced,
+new,"Spearman(CV,|k0-1|) with liquidus k0",,0.929,new,
+new,"Spearman(CV,|kP-1|) with ProCAST k",,0.548,new,
+Table 4.9,"r(Ta,Ti)",0.93,0.929,reproduced,
+Table 4.9,"r(Ta,Hf)",0.8,0.795,reproduced,
+Table 4.9,"r(Ti,Hf)",0.77,0.767,reproduced,
+Table 4.9,"r(Ni,S)",-0.89,-0.887,reproduced,
+Table 4.9,"r(Co,S)",-0.92,-0.922,reproduced,
+Table 4.9,"r(Cr,S)",-0.75,-0.748,reproduced,
+Table 4.9,"r(Al,Ni)",0.49,0.494,reproduced,
+Table 4.9,"r(Al,Co)",0.63,0.634,reproduced,
+Table 4.9,"r(Al,S)",-0.68,-0.682,reproduced,
+Table 4.9,"r(W,Ta)",-0.33,-0.328,reproduced,
+Table 4.9,"r(Mo,Ni)",-0.36,-0.355,reproduced,
+Table 4.9,"r(Mo,S)",0.19,0.188,reproduced,
+§4.4.4.2,"partial r(W,Ta | Ni)",-0.66,-0.656,reproduced,
+Table 4.10,pool frames n,15,15.0,reproduced,
+Table 4.10,matrix frames n,19,19.0,reproduced,
+Table 4.10,pool-frame mean Ta,6.6,6.602,reproduced,
+Table 4.10,pool-frame mean Hf,2.27,2.275,reproduced,
+Table 4.10,pool-frame mean W,9.0,8.995,reproduced,
+Table 4.10,pool-frame mean Ni,56.89,56.89,reproduced,
+Table 4.10,pool-frame mean Al,6.55,6.549,reproduced,
+§4.4.4.2,Ni: dilution-predicted/measured sd,1.0,1.003,reproduced,
+§4.4.4.2,Cr: dilution-predicted/measured sd,0.77,0.771,reproduced,
+Fig. 4.4 / §4.2.1,"grey relational grade, Hf/Mo/Ta/Ti vs ascending sequence",0.83-0.87,0.59-0.65,correct,Deng GRA from da2 does not reproduce; use Spearman trend test instead
+new (replaces Fig. 4.4),"Spearman(W, x)",,-0.54,new,p=0.001
+new (replaces Fig. 4.4),"Spearman(Ta, x)",,0.45,new,p=0.008
+new (replaces Fig. 4.4),"Spearman(Ti, x)",,0.352,new,p=0.041
+new (replaces Fig. 4.4),"Spearman(Co, x)",,-0.328,new,p=0.058
+new (replaces Fig. 4.4),"Spearman(Al, x)",,-0.255,new,p=0.146
+new (replaces Fig. 4.4),"Spearman(Cr, x)",,-0.197,new,p=0.263
+new (replaces Fig. 4.4),"Spearman(Hf, x)",,0.115,new,p=0.519
+new (replaces Fig. 4.4),"Spearman(Mo, x)",,0.092,new,p=0.605
+new (replaces Fig. 4.4),"Spearman(Ni, x)",,-0.015,new,p=0.932
+Table 4.12,steady window,"x>=70 mm, n=25","EDS x>=46 mm (j>=9), n=25",correct,x>=71 mm gives n=20; Table 4.11 uses x>=70 mm
+Table 4.12,Ta r linear,0.66,0.6642,reproduced,
+Table 4.12,Ta r difference,0.73,0.725,reproduced,
+Table 4.12,"Ta r moving-avg (n=21, not 25)",0.85,0.8513,reproduced,
+Table 4.12,Ta p uncorrected,0.0003,0.0003,reproduced,
+Table 4.12,Ta p Bartlett-corrected,0.022,0.0242,reproduced,lag truncation choice
+Table 4.12,Ti r linear,0.53,0.5286,reproduced,
+Table 4.12,Ti r difference,0.64,0.6376,reproduced,
+Table 4.12,"Ti r moving-avg (n=21, not 25)",0.76,0.7622,reproduced,
+Table 4.12,Ti p uncorrected,0.007,0.0066,reproduced,
+Table 4.12,Ti p Bartlett-corrected,0.063,0.0611,reproduced,lag truncation choice
+Table 4.12,Hf r linear,0.43,0.4273,reproduced,
+Table 4.12,Hf r difference,0.59,0.595,reproduced,
+Table 4.12,"Hf r moving-avg (n=21, not 25)",0.67,0.6738,reproduced,
+Table 4.12,Hf p uncorrected,0.033,0.0331,reproduced,
+Table 4.12,Hf p Bartlett-corrected,0.13,0.1409,reproduced,lag truncation choice
+Table 4.12,S r linear,0.61,0.6149,reproduced,
+Table 4.12,S r difference,0.71,0.7099,reproduced,
+Table 4.12,"S r moving-avg (n=21, not 25)",0.83,0.831,reproduced,
+Table 4.12,S p uncorrected,0.0011,0.0011,reproduced,
+Table 4.12,S p Bartlett-corrected,0.036,0.0402,reproduced,lag truncation choice
+Table 4.12,Ni r linear,-0.62,-0.6223,reproduced,
+Table 4.12,Ni r difference,-0.73,-0.7283,reproduced,
+Table 4.12,"Ni r moving-avg (n=21, not 25)",-0.86,-0.8565,reproduced,
+Table 4.12,Ni p uncorrected,0.0009,0.0009,reproduced,
+Table 4.12,Ni p Bartlett-corrected,0.031,0.0354,reproduced,lag truncation choice
+Table 4.12,Co r linear,-0.55,-0.5501,reproduced,
+Table 4.12,Co r difference,-0.69,-0.6941,reproduced,
+Table 4.12,"Co r moving-avg (n=21, not 25)",-0.83,-0.8274,reproduced,
+Table 4.12,Co p uncorrected,0.004,0.0044,reproduced,
+Table 4.12,Co p Bartlett-corrected,0.048,0.0516,reproduced,lag truncation choice
+Table 4.12,Cr r linear,-0.39,-0.3861,reproduced,
+Table 4.12,Cr r difference,-0.54,-0.5396,reproduced,
+Table 4.12,"Cr r moving-avg (n=21, not 25)",-0.66,-0.6638,reproduced,
+Table 4.12,Cr p uncorrected,0.057,0.0566,reproduced,
+Table 4.12,Cr p Bartlett-corrected,0.12,0.1123,reproduced,lag truncation choice
+Table 4.12,Al r linear,-0.36,-0.3615,reproduced,
+Table 4.12,Al r difference,-0.56,-0.5624,reproduced,
+Table 4.12,"Al r moving-avg (n=21, not 25)",-0.72,-0.7231,reproduced,
+Table 4.12,Al p uncorrected,0.076,0.0758,reproduced,
+Table 4.12,Al p Bartlett-corrected,0.093,0.1296,correct,lag truncation choice
+Table 4.12,W r linear,-0.07,-0.0657,reproduced,
+Table 4.12,W r difference,-0.06,-0.056,reproduced,
+Table 4.12,"W r moving-avg (n=21, not 25)",-0.1,-0.0981,reproduced,
+Table 4.12,W p uncorrected,0.75,0.7549,reproduced,
+Table 4.12,W p Bartlett-corrected,0.75,0.7618,reproduced,lag truncation choice
+Table 4.12,Mo r linear,0.14,0.1365,reproduced,
+Table 4.12,Mo r difference,0.05,0.0538,reproduced,
+Table 4.12,"Mo r moving-avg (n=21, not 25)",0.08,0.0792,reproduced,
+Table 4.12,Mo p uncorrected,0.52,0.5152,reproduced,
+Table 4.12,Mo p Bartlett-corrected,0.59,0.5282,reproduced,lag truncation choice
+§4.4.5,R2 of Ta explained by G /%,44,44.1108,reproduced,
+§4.4.5,R2 of Ni explained by G /%,39,38.7233,reproduced,
+§4.4.5 / Fig. 4.30,cosine-fit lambda /mm,19.3,19.4,reproduced,
+§4.4.5 / Fig. 4.30,fitted peak offset /mm,<0.5 from +1 mm,1.5,reproduced,
+Fig. 4.30,"r(S,G) at offset 11 mm",-0.6,-0.565,reproduced,
+Fig. 4.30,"r(S,G) at offset 6 mm",0.02,0.077,reproduced,
+Fig. 4.30,"r(S,G) at offset 1 mm",0.61,0.615,reproduced,
+Fig. 4.30,"r(S,G) at offset -4 mm",-0.12,-0.117,reproduced,
+Fig. 4.30,"r(S,G) at offset -9 mm",-0.43,-0.434,reproduced,
+Fig. 4.30,"r(S,G) at offset -14 mm",0.15,0.151,reproduced,
+§4.4.5,S detrended peaks /mm,"60,75,90,115,130,140",61;76;91;116;131;141,reproduced,"EDS x = 1 + 5j, hence 61,76,..."
+§4.4.5,pool-frame dG difference /K mm-1,0.34,0.3395,reproduced,
+§4.4.5,pool-frame one-sided MW p,0.047,0.0475,reproduced,
+new (control),"pool-frame test with axis-1 G, p",,0.424,new,
+new (control),"r(S, G of axis 1)",,0.162,new,
+new (control),"r(Ta, G of axis 1)",,0.189,new,
+§4.4.3.3,"r(Ta,R) (x>=71 mm, n=20, R paired i=j)",-0.39,-0.39,reproduced,Table-4.12 window x>=46 mm gives -0.05; window must be stated
+§4.4.3.3,"r(Ni,R) (x>=71 mm, n=20, R paired i=j)",0.38,0.383,reproduced,Table-4.12 window x>=46 mm gives -0.03
+new,"r(S,G) with 1 % shrinkage + 0.2 mm kerf",,0.402,new,
+new,"r(S,G) with 2 % shrinkage + 0.3 mm kerf",,0.174,new,
+new,"r(S,G) if EDS point 0 were at 4 mm",,0.038,new,
+new,apparent kE of matrix elements from closure alone,,1.0099,new,
+Table 4.3,kE_10 Ni,1.013,1.0134,reproduced,
+Table 4.3,kE_17 Ni,1.023,1.0233,reproduced,
+Table 4.3,kE_34 Ni,1.003,1.0032,reproduced,
+Table 4.3,kE_10 W,1.059,1.0599,reproduced,
+Table 4.3,kE_17 W,1.044,1.0448,reproduced,
+Table 4.3,kE_34 W,1.057,1.0569,reproduced,
+Table 4.3,kE_10 Ta,0.768,0.7679,reproduced,
+Table 4.3,kE_17 Ta,0.645,0.6456,reproduced,
+Table 4.3,kE_34 Ta,0.836,0.8363,reproduced,
+Table 4.3,kE_10 Al,1.026,1.0268,reproduced,
+Table 4.3,kE_17 Al,1.03,1.0373,reproduced,
+Table 4.3,kE_34 Al,1.019,1.0189,reproduced,
+Table 4.3,kE_10 Co,1.016,1.0162,reproduced,
+Table 4.3,kE_17 Co,1.05,1.0506,reproduced,
+Table 4.3,kE_34 Co,1.02,1.0152,reproduced,Table 4.2 gives 1.015; Table 4.3 rounds to 1.02
+Table 4.3,kE_10 Cr,1.006,1.0063,reproduced,
+Table 4.3,kE_17 Cr,1.034,1.0343,reproduced,
+Table 4.3,kE_34 Cr,1.005,1.0056,reproduced,
+Table 4.3,kE_10 Hf,0.574,0.5743,reproduced,
+Table 4.3,kE_17 Hf,0.51,0.5097,reproduced,
+Table 4.3,kE_34 Hf,0.964,0.9644,reproduced,
+Table 4.3,kE_10 Mo,0.879,0.879,reproduced,
+Table 4.3,kE_17 Mo,0.803,0.803,reproduced,
+Table 4.3,kE_34 Mo,0.975,0.9746,reproduced,
+Table 4.3,kE_10 Ti,0.78,0.7803,reproduced,
+Table 4.3,kE_17 Ti,0.75,0.75,reproduced,
+Table 4.3,kE_34 Ti,0.881,0.8811,reproduced,
+Table 4.3 / §4.3.3,17-point data,17-point fit,"da4 = mean of da2 rows k and k+2, k=0..16 (first 19 points only, x 6-91 mm)",correct,
+Table 4.3 / §4.3.3,10-point data,10-point fit,da7 = smoothed subset of da2 rows ~0-10 (x ≈ 6-50 mm),correct,
+new,"kE Ta, 17 pair-averages over full length",,0.85,new,
+new,"kE W, 17 pair-averages over full length",,1.0542,new,
+new,34-pt slope p-value: W,,0.0028,new,
+new,34-pt slope p-value: Ta,,0.0707,new,
+new,34-pt slope p-value: Ti,,0.059,new,
+Table 4.7,Pc_34 W,1.25,1.2514,reproduced,
+Table 4.7,Pc_34 Ta,1.35,1.3494,reproduced,
+Table 4.7,Pc_34 Ti,0.87,0.8722,reproduced,
+Table 4.7,Pc_34 Al,1.05,1.0492,reproduced,
+Table 4.7,Pc_34 Mo,2.49,2.4731,reproduced,difference from rounding of kE
+Table 4.7,Pc_34 Hf,5.41,5.4218,reproduced,difference from rounding of kE
+Table 4.7,Pc_34 Co,1.51,1.7734,correct,thesis used rounded kE=1.020; actual 1.015 gives 1.77
+Table 4.7,Pc_34 Cr,0.87,0.762,correct,kE 1.0056 -> 0.76; ill-conditioned (sensitivity 179)
+§4.4.3.1,"R*delta /1e-9 m2 s-1 (W,Co,Ta,Ti)",2.5,2.621,correct,2.6±0.7 with actual Co kE
+§4.4.3.1,delta /um,61,63.933,correct,64±17 um with actual Co kE; 61±16 um with liquidus k0
+Table 4.4 vs JMatPro file,k0 W: Table 4.4 vs liquidus value,1.232,1.122,correct,Table 4.4 values are not liquidus values; definition must be stated
+Table 4.4 vs JMatPro file,k0 Co: Table 4.4 vs liquidus value,1.097,1.093,reproduced,Table 4.4 values are not liquidus values; definition must be stated
+Table 4.4 vs JMatPro file,k0 Ta: Table 4.4 vs liquidus value,0.57,0.481,correct,Table 4.4 values are not liquidus values; definition must be stated
+Table 4.4 vs JMatPro file,k0 Ti: Table 4.4 vs liquidus value,0.756,0.729,correct,Table 4.4 values are not liquidus values; definition must be stated
+Table 4.4 vs JMatPro file,k0 Al: Table 4.4 vs liquidus value,1.056,0.91,correct,Table 4.4 values are not liquidus values; definition must be stated
+Table 4.4 vs JMatPro file,k0 Cr: Table 4.4 vs liquidus value,1.012,0.941,correct,Table 4.4 values are not liquidus values; definition must be stated
+Table 4.4 vs JMatPro file,k0 Mo: Table 4.4 vs liquidus value,0.764,0.775,reproduced,Table 4.4 values are not liquidus values; definition must be stated
+Table 4.4 vs JMatPro file,k0 Hf: Table 4.4 vs liquidus value,0.107,0.095,reproduced,Table 4.4 values are not liquidus values; definition must be stated
+§4.3.5 / §4.4.3,k_Al near liquidus,1.06,0.9098,correct,JMatPro file gives 0.91 at the liquidus; k crosses 1 at 1290 C
+§4.3.5,liquid Al: rises to,,6.3318,new,"max at 1290 C, gamma-prime appears at 1256 C; 'deep-V reversal' wording not supported"
+§4.3.6,Nv(gamma) range,1.90-2.35,1.91-2.36,reproduced,requires undocumented element-wise correction factors
+§4.3.6,Md(gamma) range,0.870-0.928,0.867-0.928,reproduced,
+§4.3.6,Ni in gamma /at%,45,46.993,reproduced,text says ~45 and ~50 in two places; recomputed 47
+new,EDS mean/nominal: Ta,,1.6104,new,
+new,EDS mean/nominal: Ti,,1.4332,new,
+new,EDS mean/nominal: Al,,1.2273,new,

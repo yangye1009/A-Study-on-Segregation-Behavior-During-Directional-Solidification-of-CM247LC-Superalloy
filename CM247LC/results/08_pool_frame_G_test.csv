@@ -1,0 +1,3 @@
+﻿axis,n_pool,n_matrix,mean_dG_pool,mean_dG_matrix,diff,sd_dG,p_one_sided_MW
+axis 2 (centreline),14,11,0.1494,-0.1901,0.3395,0.5147,0.0475
+axis 1 (control),14,11,0.0518,-0.066,0.1178,0.6863,0.424
